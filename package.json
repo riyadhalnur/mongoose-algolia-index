@@ -34,6 +34,11 @@
     "eslint": "3.0.1",
     "istanbul": "0.4.4",
     "mocha": "2.5.3",
-    "mocha-lcov-reporter": "1.2.0"
+    "mocha-lcov-reporter": "1.2.0",
+    "mongoose": "4.5.4",
+    "pow-mongoose-fixtures": "0.3.0"
+  },
+  "dependencies": {
+    "algoliasearch": "3.17.0"
   }
 }
