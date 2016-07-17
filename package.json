@@ -1,6 +1,6 @@
 {
   "name": "mongoose-algolia-index",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "Mongoose plugin to automatically index newly created documents for Algolia",
   "main": "index.js",
   "scripts": {
