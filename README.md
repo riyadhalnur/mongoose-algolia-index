@@ -4,7 +4,9 @@
 mongoose-algolia-index
 ======================
 
-Mongoose plugin to automatically index newly created documents for Algolia.
+Mongoose plugin to automatically index newly created documents for Algolia.  
+
+**NOTE: This project is in BETA. It is not properly ready for production use yet. The API is subject to change as we get closer to releasing the stable version (1.0.0).**
 
 ### Installation  
 `npm install mongoose-algolia-index --save`  
