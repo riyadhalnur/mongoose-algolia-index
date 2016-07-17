@@ -4,12 +4,14 @@
   "description": "Mongoose plugin to automatically index newly created documents for Algolia",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -t 10000 tests/tests.js",
+    "lint": "eslint src/** index.js",
+    "docs": "documentation build src/mongoose-algolia-plugin.js -o DOCUMENTATION.md -f \"md\"",
+    "test": "npm run lint && mocha -t 10000 tests/tests.js",
     "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec tests/tests.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riyadhalnur/mongoose-algolia-index.git"
+    "url": "riyadhalnur/mongoose-algolia-index"
   },
   "keywords": [
     "mongoose",
@@ -31,14 +33,16 @@
   "devDependencies": {
     "chai": "3.5.0",
     "coveralls": "2.11.11",
+    "documentation": "4.0.0-beta8",
     "eslint": "3.0.1",
     "istanbul": "0.4.4",
     "mocha": "2.5.3",
     "mocha-lcov-reporter": "1.2.0",
-    "mongoose": "4.5.4",
-    "pow-mongoose-fixtures": "0.3.0"
+    "pow-mongoose-fixtures": "0.3.0",
+    "sinon": "1.17.4"
   },
   "dependencies": {
-    "algoliasearch": "3.17.0"
+    "algoliasearch": "3.17.0",
+    "mongoose": "4.5.4"
   }
 }
