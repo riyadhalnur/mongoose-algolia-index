@@ -4,6 +4,8 @@
 mongoose-algolia-index
 ======================
 
+[![Join the chat at https://gitter.im/riyadhalnur/mongoose-algolia-index](https://badges.gitter.im/riyadhalnur/mongoose-algolia-index.svg)](https://gitter.im/riyadhalnur/mongoose-algolia-index?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Mongoose plugin to automatically index newly created documents for Algolia.  
 
 **NOTE: This project is in BETA. It is not properly ready for production use yet. The API is subject to change as we get closer to releasing the stable version (1.0.0).**
